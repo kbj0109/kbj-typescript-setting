@@ -1,5 +1,5 @@
 {
   "watch": ["src/**/*.ts", "src/swagger/**/*.yaml", ".env"],
   "ext": "yaml",
-  "exec": "ts-node-dev"
+  "exec": "ts-node-dev --no-notify --respawn --transpile-only --inspect=0.0.0.0:9229"
 }
