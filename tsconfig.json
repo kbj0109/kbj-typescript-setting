@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "declaration": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "types": ["node", "jest"],
+    "lib": ["es2020", "DOM"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": false,
+    "skipLibCheck": true,
+    "paths": {},
+    "plugins": []
+  },
+  "include": ["./src/**/*.ts", "./tests"],
+  "exclude": ["node_modules", "dist"]
+}
